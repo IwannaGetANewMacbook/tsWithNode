@@ -1,0 +1,10 @@
+// type스크립트 라는 것을 알려주는 파일은 tsconfig.json
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ES2015", "ES2016", "ES2017", "ES2019", "ES2020", "ES2021", "ES2022",],
+    "moduleResolution": "Node",
+    "esModuleInterop": false // 이 설정 true로 키면 express 를 임포트할 때 * as 안써도 됨.
+
+  }
+}
