@@ -1,4 +1,4 @@
-// type스크립트 라는 것을 알려주는 파일은 tsconfig.json
+// TypeScript 라는 것을 알려주는 파일은 tsconfig.json
 {
   "compilerOptions": {
     "strict": true,
